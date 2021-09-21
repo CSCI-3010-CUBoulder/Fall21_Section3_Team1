@@ -1,7 +1,7 @@
 /* String functions section */
-#include<iostream>
-#include<vector>
-#include<numeric>
+#include <iostream>
+#include <vector>
+#include <numeric>
 // Splits a single string on separator into a vector of strings
 // std::vector<std::string> Split(std::string whole, std::string separator);
 //
@@ -34,7 +34,7 @@
 // Sums all numbers in a vector and returns the resulting value
 int Sum(std::vector<int> nums)
 {
-  return accumulate(nums.begin(),nums.end(),0);
+  return accumulate(nums.begin(), nums.end(), 0);
 }
 
 // // Multiplies all numbers in a vector together and returns the resulting value
@@ -62,15 +62,14 @@ int Sum(std::vector<int> nums)
 //  returns -1 if the number is negative and 1 if positive
 int Sign(int num)
 {
-  if (num<0)
+  if (num < 0)
   {
-      return -1;
+    return -1;
   }
   else
   {
     return 1;
   }
-
 }
 //
 // // takes two vectors of doubles, a and b. The function then removes elements from a if they are also in b.
@@ -127,8 +126,8 @@ int Sign(int num)
 //
 // // subtracts n to each element of the vector
 // std::vector<double> SubtractN(std::vector<double>, double n
-int main()
-{
-  std::cout<<"Hello world"<<std::endl;
-  return 0;
-}
+// int main()
+// {
+//   std::cout<<"Hello world"<<std::endl;
+//   return 0;
+// }

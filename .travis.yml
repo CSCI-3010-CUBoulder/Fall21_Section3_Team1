@@ -1,5 +1,5 @@
 language: cpp
 #before_script:
 script:
-- g++ -std=c++17 -Wall functions_to_implement.cpp -o test
-- ./test -c
+- make
+- ./test -s

@@ -4,17 +4,15 @@
 #include "functions_to_implement.cpp"
 #include <vector>
 
-TEST_CASE("Sign is computing correctly","[Sign]")
+TEST_CASE("Sign is computing correctly", "[Sign]")
 {
-  REQUIRE(Sign(-1)==-1);
-  REQUIRE(Sign(-44)==-1);
-  REQUIRE(Sign(44)==1);
-  REQUIRE(Sign(1123)==1);
-  REQUIRE(Sign(-5)==-1);
-  REQUIRE(Sign(-33)==-1);
+  REQUIRE(Sign(-5) == 5);
+  REQUIRE(Sign(66) == -66);
+  REQUIRE(Sign(-10) == 10);
 }
 
-TEST_CASE("Sum all of the numbers in the vector","[Sum]")
+TEST_CASE("Sum all of the numbers in the vector", "[Sum]")
 {
-  std::vector<int> v{1,2,3,4,5,6,7,8,9}
+  std::vector<int> v2{1, 5, 1};
+  REQUIRE(Sum(v2) == 7);
 }
