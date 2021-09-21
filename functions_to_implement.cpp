@@ -127,8 +127,8 @@ int Sign(int num)
 //
 // // subtracts n to each element of the vector
 // std::vector<double> SubtractN(std::vector<double>, double n
-int main()
+/*int main()
 {
   std::cout<<"Hello world"<<std::endl;
   return 0;
-}
+}*/
