@@ -4,7 +4,7 @@
 #include "functions_to_implement.cpp"
 #include <vector>
 
-TEST_CASE("Sign are computed","[sign]")
+TEST_CASE("Sign is computing correctly","[Sign]")
 {
   REQUIRE(Sign(-1)==-1);
   REQUIRE(Sign(-44)==-1);
